@@ -1,6 +1,7 @@
 /**
  * Created by sedan on 2017-01-13.
  */
+
 $(document).ready(function () {
 
     $(function () {
@@ -23,7 +24,6 @@ $(document).ready(function () {
 
 
 
-
         var protoWidth = 720;
         var protoHeight = 1280;
         var screenRatio = 1.8; //protoWidth / protoWidth;
@@ -38,6 +38,11 @@ $(document).ready(function () {
             $(this).css('height', 'auto');
 
         });
+
+
+        $('#container img').width('100%');
+        $('#container img').height('100%');
+
 
 
 
