@@ -21,7 +21,9 @@ $(document).ready(function () {
 
 
         //var body = document.getElementById("body").offsetWidth;
-
+        //<audio  autoplay loop preload="none">
+        //    <source src="index.ogg" type="audio/ogg">
+        //    </audio>
 
 
         var protoWidth = 720;

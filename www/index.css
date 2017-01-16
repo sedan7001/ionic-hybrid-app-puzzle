@@ -1,121 +1,170 @@
-html, body {
-    overflow: hidden;
-    height: 100%;
-    margin: 0px;
-    /*width: 100%;*/
+div#container
+{
+   width: 720px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
 }
-
-body {
-    margin: 0 auto;
-    text-align: center;
-    /*background-image: radial-gradient(100% 70% ellipse at center top, #ece6e3 5%, #100a1c 90%);*/
-    /*background-attachment: fixed;*/
-    background-color: #B5CACF;
-    font-family: Arial;
-    font-weight: normal;
-    font-size: 13px;
-    /*line-height: 1.1875;*/
-}
-
-div#container {
-    width: 720px;
-    overflow: hidden;
-    height: auto;
-    position: relative;
-    margin: 0 auto 0 auto;
-    text-align: left;
-}
-
-
-img{
-    -webkit-transition: all 0.1s;
-    -moz-transition: all 0.1s;
-    transition: all 0.1s;
-
-
-}
-img:active {
-    transform: scale(0.95);
-    position: relative;
+body
+{
+   background-color: #FF0000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+   text-align: center;
 }
 #Image1
 {
-    border: 0px #000000 solid;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Image3
 {
-    border: 0px #000000 solid;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Image4
 {
-    border: 0px #000000 solid;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Image5
 {
-    border: 0px #000000 solid;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Image2
 {
-    border: 0px #000000 solid;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Image6
 {
-    border: 0px #000000 solid;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Image7
 {
-    border: 0px #000000 solid;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #Image8
 {
-    border: 0px #000000 solid;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    padding: 0px 0px 0px 0px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+   border: 0px #000000 solid;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 10px;
+   top: 156px;
+   width: 701px;
+   height: 89px;
+   z-index: 0;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 126px;
+   top: 739px;
+   width: 419px;
+   height: 82px;
+   z-index: 4;
+}
+#wb_Image3
+{
+   position: absolute;
+   left: 126px;
+   top: 471px;
+   width: 311px;
+   height: 82px;
+   z-index: 1;
+}
+#wb_Image4
+{
+   position: absolute;
+   left: 126px;
+   top: 605px;
+   width: 463px;
+   height: 81px;
+   z-index: 2;
+}
+#wb_Image5
+{
+   position: absolute;
+   left: 126px;
+   top: 871px;
+   width: 408px;
+   height: 82px;
+   z-index: 3;
+}
+#wb_Image6
+{
+   position: absolute;
+   left: 179px;
+   top: 1124px;
+   width: 66px;
+   height: 66px;
+   z-index: 5;
+}
+#wb_Image7
+{
+   position: absolute;
+   left: 327px;
+   top: 1124px;
+   width: 66px;
+   height: 66px;
+   z-index: 6;
+}
+#wb_Image8
+{
+   position: absolute;
+   left: 475px;
+   top: 1124px;
+   width: 66px;
+   height: 66px;
+   z-index: 7;
 }
